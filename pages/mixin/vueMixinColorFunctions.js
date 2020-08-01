@@ -139,17 +139,17 @@ export const vueMixinColorFunctions = {
       return result
     },
     interpolateColors(color1, color2, steps) {
-      let stepFactor = 1 / (steps - 1)
-      let interpolatedColorArray = []
+      let stepFactor = 1 / (steps - 1);
+      let interpolatedColorArray = [];
 
-      color1 = this.rgbArrayFromHex(color1).map(Number)
-      color2 = this.rgbArrayFromHex(color2).map(Number)
+      color1 = this.rgbArrayFromHex(color1).map(Number);
+      color2 = this.rgbArrayFromHex(color2).map(Number);
 
       for (var i = 0; i < steps; i++) {
         interpolatedColorArray.push(this.interpolateColor(color1, color2, stepFactor * i))
       }
 
-      return interpolatedColorArray
+      return interpolatedColorArray;
     }
   },
 };

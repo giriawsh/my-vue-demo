@@ -1,27 +1,4 @@
 <template>
-  <!--  <div class="container">-->
-  <!--    <div class="tools">-->
-  <!--      <div>-->
-  <!--        <div>-->
-  <!--          <input type="color" v-model="color1"/>-->
-  <!--          <input type="text" v-model="color1"/>-->
-  <!--        </div>-->
-  <!--        <div>-->
-  <!--          <div class="vertical-range">-->
-  <!--            <input type="range" :min="min" :max="max" v-model="steps" xorient="vertical"/>-->
-  <!--          </div>-->
-  <!--          <div class="steps">{{visualSteps}} {{visualStepsLabel}}</div>-->
-  <!--        </div>-->
-  <!--        <div>-->
-  <!--          <input type="color" v-model="color2"/>-->
-  <!--          <input type="text" v-model="color2"/>-->
-  <!--        </div>-->
-  <!--      </div>-->
-  <!--      <div class="colors">-->
-  <!--        <div class="color" v-for="color in colors" :style="setStyles(color)">&nbsp;{{colorName(color)}}</div>-->
-  <!--      </div>-->
-  <!--    </div>-->
-  <!--  </div>-->
   <div class="container">
     <div class="tools">
       <div>
