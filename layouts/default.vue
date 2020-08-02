@@ -65,6 +65,7 @@
           {icon: 'mdi-apps', title: 'Home', to: '/'},
           {icon: 'mdi-alpha-t-circle-outline', title: 'liquidText', to: '/svgDemo/liquidText'},
           {icon: 'mdi-flask-round-bottom', title: 'colorDemo', to: '/colorDemo/colorTab'},
+          {icon: 'mdi-account', title: 'loginBox', to: '/loginBox/loginDemo'},
           {icon: 'mdi-music-circle', title: 'musicLab', to: '/colorDemo/colorTab'},
         ],
       }

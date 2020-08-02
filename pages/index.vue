@@ -11,6 +11,7 @@
       <div class="links">
         <nuxt-link class="button--green" to="/svgDemo/liquidText">流动字体</nuxt-link>
         <nuxt-link class="button--green" to="/colorDemo/colorTab">色彩实验室</nuxt-link>
+        <nuxt-link class="button--green" to="/loginBox/loginDemo">登录盒子</nuxt-link>
       </div>
     </div>
   </div>
