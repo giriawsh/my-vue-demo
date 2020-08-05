@@ -54,7 +54,6 @@
         this.userShow = false;
         this.circleShow = true;
         this.timer = setInterval(this.showPath, 200);
-        console.log("?????");
       },
       showPath(){
         this.circleShow = false;
@@ -180,7 +179,7 @@
     /*display: block;*/
   }
 
-  .my-login-box .user-box span:nth-child(1) {
+  .my-login-box .user-box span{
     top: 40px;
     left: -50%;
     width: 50%;
@@ -199,7 +198,7 @@
     }
   }
 
-  .my-login-box .pass-box span:nth-child(1) {
+  .my-login-box .pass-box span{
     top: 40px;
     left: -50%;
     width: 50%;
@@ -210,7 +209,7 @@
 
   @keyframes btn-animpass {
     0% {
-      left: 100%;
+      left: 95%;
       width: 10%;
     }
     50%,
