@@ -45,3 +45,10 @@ $ yarn generate
 添加过渡颜色选项卡
 
 ![colortabs](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16d2090ae09f4a3ca94436e385a8e724~tplv-k3u1fbpfcp-zoom-1.image)
+
+# 2020/8/6
+
+添加登录框
+
+![loginbox](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fb1056b910240f9a5068f28961f0d83~tplv-k3u1fbpfcp-zoom-1.image)
+
